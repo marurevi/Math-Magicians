@@ -1,3 +1,31 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Math Magicians: Setup
+
+> You will start by building the core functionality, which is a calculator. At the very beginning your website will contain only the simple UI presented below, but it will be able to perform all math operations.
+
+<p align="center">
+  <img src="https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/images/calculator.png" alt="Calculator" width="300px" />
+</p>
+
+> Once the calculator is ready you will use it as a part of a full website that includes 3 sub-pages:
+
+<p align="center">
+  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_home.png" alt="Core elements" width="450px"  />
+  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_calculator.png" alt="Core elements" width="450px"  />
+  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_quote.png" alt="Core elements" width="450px"  />
+</p>
+
+## Built With
+
+- Major languages: HTML, CSS & JavaScript
+- Frameworks: React
+
+
+## Live Demo (if available)
+
+[Not available](https://livedemo.com)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +96,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Authors
+
+👤 **Mariana Revilla Lérida**
+
+- GitHub: [@marurevi](https://github.com/marurevi)
+- Twitter: [@MaruRevilla](https://twitter.com/MaruRevilla)
+- LinkedIn: [Mariana-Revilla-Lérida](https://linkedin.com/in/mariana-revilla-l%C3%A9rida-a12aba143)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
