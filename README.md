@@ -1,3 +1,31 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Math Magicians: Setup
+
+> You will start by building the core functionality, which is a calculator. At the very beginning your website will contain only the simple UI presented below, but it will be able to perform all math operations.
+
+<p align="center">
+  <img src="https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/images/calculator.png" alt="Calculator" width="300px" />
+</p>
+
+> Once the calculator is ready you will use it as a part of a full website that includes 3 sub-pages:
+
+<p align="center">
+  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_home.png" alt="Core elements" width="450px"  />
+  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_calculator.png" alt="Core elements" width="450px"  />
+  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_quote.png" alt="Core elements" width="450px"  />
+</p>
+
+## Built With
+
+- Major languages: HTML, CSS & JavaScript
+- Frameworks: React
+
+
+## Live Demo (if available)
+
+[Not available](https://livedemo.com)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +67,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Mariana Revilla Lérida**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@marurevi](https://github.com/marurevi)
+- Twitter: [@MaruRevilla](https://twitter.com/MaruRevilla)
+- LinkedIn: [Mariana-Revilla-Lérida](https://linkedin.com/in/mariana-revilla-l%C3%A9rida-a12aba143)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
+This project is [MIT](./MIT.md) licensed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
