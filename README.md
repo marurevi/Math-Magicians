@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians: Setup
+# Math Magicians: Components
 
 > You will start by building the core functionality, which is a calculator. At the very beginning your website will contain only the simple UI presented below, but it will be able to perform all math operations.
 
@@ -32,7 +32,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can clone the repository with the following link:
+`https://github.com/marurevi/Math-Magicians.git`
+ Once you have clone the repository run:
+ `npm install`
+ to install all the dependencies that you need.
+ Then you can run a live version with the command `npm start`.
 
 ### `npm start`
 
@@ -93,5 +98,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENCE) licensed.
 
