@@ -27,7 +27,7 @@ class Calculator extends React.PureComponent {
         <li><button className="btn-grey" type="button">3</button></li>
         <li><button className="btn-orange" type="button">+</button></li>
 
-        <li className="doblespan"><button className="btn-grey doblespan" type="button">0</button></li>
+        <li className="doblespan"><button className="btn-grey" type="button">0</button></li>
         <li><button className="btn-grey" type="button">.</button></li>
         <li><button className="btn-orange" type="button">=</button></li>
       </ul>
