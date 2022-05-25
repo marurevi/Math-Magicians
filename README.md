@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians: Setup
+# Math Magicians: Components
 
 > You will start by building the core functionality, which is a calculator. At the very beginning your website will contain only the simple UI presented below, but it will be able to perform all math operations.
 
