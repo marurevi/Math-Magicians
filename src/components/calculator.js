@@ -1,39 +1,50 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from './Button';
 import './calculator.css';
+import calculate from '../logic/calculate';
 
-class Calculator extends React.PureComponent {
-  render() {
-    return (
-      <ul className="grid-container">
-        <li className="fullspan"><div className="output">0</div></li>
+const Calculator = () => {
+  const [data, setState] = useState({ total: 0, next: null, operation: null });
+  const onClick = (event) => {
+    const result = calculate(data, event.target.id);
+    setState(result);
+  };
 
-        <li><Button id="AC" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="+/-" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="%" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="/" className="btn-orange" onClick="onClick" /></li>
+  return (
+    <ul className="grid-container">
+      <li className="fullspan">
+        <div className="output">
+          <span>{data.total}</span>
+          <span>{data.operation}</span>
+          <span>{data.next}</span>
+        </div>
+      </li>
 
-        <li><Button id="7" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="8" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="9" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="X" className="btn-orange" onClick="onClick" /></li>
+      <li><Button id="AC" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="+/-" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="%" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="÷" className="btn-orange" onClick={onClick} /></li>
 
-        <li><Button id="4" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="5" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="6" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="-" className="btn-orange" onClick="onClick" /></li>
+      <li><Button id="7" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="8" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="9" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="x" className="btn-orange" onClick={onClick} /></li>
 
-        <li><Button id="1" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="2" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="3" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="+" className="btn-orange" onClick="onClick" /></li>
+      <li><Button id="4" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="5" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="6" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="-" className="btn-orange" onClick={onClick} /></li>
 
-        <li className="doblespan"><Button id="0" className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="." className="btn-grey" onClick="onClick" /></li>
-        <li><Button id="=" className="btn-orange" onClick="onClick" /></li>
-      </ul>
-    );
-  }
-}
+      <li><Button id="1" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="2" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="3" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="+" className="btn-orange" onClick={onClick} /></li>
+
+      <li className="doblespan"><Button id="0" className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="." className="btn-grey" onClick={onClick} /></li>
+      <li><Button id="=" className="btn-orange" onClick={onClick} /></li>
+    </ul>
+  );
+};
 
 export default Calculator;

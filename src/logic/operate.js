@@ -1,16 +1,32 @@
-/*
-It should import the big.js module from the corresponding npm package.
-It should implement one default function named operate.
-The operate function should accept
-- numberOne,
-- numberTwo and
-- operation as arguments.
-Using the value of the operation argument, this method should
-perform a simple math operation. For instance if operation == "-",
-it should return the result of subtracting the two passed numbers.
-Remember to wrap the numbers with big.js classes so you
-can operate on big numbers.
-If the buttonName in calculate.js is equal to any operation
-(e.g. +, -, x, ÷, %), operate.js should be used to
-calculate the total property.
- */
+import Big from 'big.js';
+
+const operate = (numberOne, numberTwo, operation) => {
+  const one = Big(numberOne);
+  const two = Big(numberTwo);
+  if (operation === '+') {
+    return one.plus(two).toString();
+  }
+  if (operation === '-') {
+    return one.minus(two).toString();
+  }
+  if (operation === 'x') {
+    return one.times(two).toString();
+  }
+  if (operation === '÷') {
+    try {
+      return one.div(two).toString();
+    } catch (err) {
+      return "Can't divide by 0.";
+    }
+  }
+  if (operation === '%') {
+    try {
+      return one.mod(two).toString();
+    } catch (err) {
+      return "Can't find modulo as can't divide by 0.";
+    }
+  }
+  throw Error(`Unknown operation '${operation}'`);
+};
+
+export default operate;
