@@ -1,19 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians: Components
+# Math Magicians: Events
 
-> You will start by building the core functionality, which is a calculator. At the very beginning your website will contain only the simple UI presented below, but it will be able to perform all math operations.
+> In this section of the project, I worked on developing the functionality of the calculator.
 
 <p align="center">
   <img src="https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/images/calculator.png" alt="Calculator" width="300px" />
-</p>
-
-> Once the calculator is ready you will use it as a part of a full website that includes 3 sub-pages:
-
-<p align="center">
-  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_home.png" alt="Core elements" width="450px"  />
-  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_calculator.png" alt="Core elements" width="450px"  />
-  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_quote.png" alt="Core elements" width="450px"  />
 </p>
 
 ## Built With
