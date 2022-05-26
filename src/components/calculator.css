@@ -7,7 +7,7 @@
   box-shadow: black 2px 2px 5px;
 }
 
-.grid-container li {
+.grid-container > * {
   display: flex;
   list-style: none;
   border: 1px solid rgb(135, 133, 133);
