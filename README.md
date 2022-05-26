@@ -2,7 +2,7 @@
 
 # Math Magicians: Events
 
-> In this section of the project I worked on develop the funcionality of the calculator.
+> In this section of the project, I worked on developing the functionality of the calculator.
 
 <p align="center">
   <img src="https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/images/calculator.png" alt="Calculator" width="300px" />
