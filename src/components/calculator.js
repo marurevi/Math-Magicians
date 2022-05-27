@@ -4,9 +4,9 @@ import './calculator.css';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  const [data, setState] = useState({ total: 0, next: null, operation: null });
+  const [state, setState] = useState({ total: 0, next: null, operation: null });
   const onClick = (event) => {
-    const result = calculate(data, event.target.id);
+    const result = calculate(state, event.target.id);
     setState(result);
   };
 
@@ -14,9 +14,9 @@ const Calculator = () => {
     <ul className="grid-container">
       <li className="fullspan">
         <div className="output">
-          <span>{data.total}</span>
-          <span>{data.operation}</span>
-          <span>{data.next}</span>
+          <span>{state.total}</span>
+          <span>{state.operation}</span>
+          <span>{state.next}</span>
         </div>
       </li>
 
