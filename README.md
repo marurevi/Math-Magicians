@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians: Events
+# Math Magicians: refactor with hooks
 
-> In this section of the project, I worked on developing the functionality of the calculator.
+> In this section of the project, I refactored the Calculator component. Instead of using class based components, you used hooks.
 
 <p align="center">
   <img src="https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/images/calculator.png" alt="Calculator" width="300px" />
@@ -12,7 +12,6 @@
 
 - Major languages: HTML, CSS & JavaScript
 - Frameworks: React
-
 
 ## Live Demo (if available)
 
