@@ -1,13 +1,9 @@
-import { Link } from 'react-router-dom';
+import Navigator from './Navigator';
 
 function Home() {
   return (
     <>
-      <nav className="nav">
-        <Link to="/">Home</Link>
-        <Link to="/calculator">Calculator</Link>
-        <Link to="/quote">Quote</Link>
-      </nav>
+      <Navigator />
       <main className="main">
         <h1>Math Magicians</h1>
         <h2>Welcome to our page!</h2>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import Navigator from './Navigator';
 import Button from './Button';
 import './calculator.css';
 import calculate from '../logic/calculate';
@@ -13,11 +13,7 @@ const Calculator = () => {
 
   return (
     <>
-      <nav className="nav">
-        <Link to="/">Home</Link>
-        <Link to="/calculator">Calculator</Link>
-        <Link to="/quote">Quote</Link>
-      </nav>
+      <Navigator />
       <main className="main-calculator">
         <div className="main">
           <h1>Math Magicians</h1>
