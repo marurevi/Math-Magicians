@@ -33,6 +33,12 @@ body {
   border-left: black 1px solid;
 }
 
+.nav > *:hover {
+  color: darkorange;
+  text-shadow: 2px 2px 3px black;
+  transform: scale(1.2);
+}
+
 .main {
   display: flex;
   flex-direction: column;
