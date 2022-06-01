@@ -13,6 +13,47 @@ body {
   flex-direction: column;
 }
 
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2em;
+  width: 100%;
+}
+
+.nav >* {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 1em;
+  color: black
+}
+
+.nav >*:not(:first-child) {
+  padding-left: 2em;
+  border-left: black 1px solid;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+}
+
+.main > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.main-calculator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3em;
+}
+
+.main-calculator > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+
 .calculator {
   display: flex;
   flex-direction: column;
