@@ -10,9 +10,10 @@
 .grid-container > * {
   display: flex;
   list-style: none;
-  border: 1px solid rgb(135, 133, 133);
+  border: 1px solid rgb(75, 75, 75);
   outline: none;
   justify-content: center;
+  box-shadow: rgb(81, 81, 81) 3px 8px 10px;
 }
 
 button {
@@ -55,5 +56,5 @@ button {
 }
 
 .btn-orange {
-  background-color: orange;
+  background-color: rgb(19, 219, 254);
 }

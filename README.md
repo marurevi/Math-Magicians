@@ -1,11 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians: refactor with hooks
+# Math magicians: full website
 
->In this section of the project, I refactored the Calculator component. Instead of using class-based components, I used hooks.
+>I developed a full website with several pages.
+
+- Create a website consisting of 3 pages: Home, Calculator, and Quote.
+- The general layout should match these wireframes:
 
 <p align="center">
-  <img src="https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/images/calculator.png" alt="Calculator" width="300px" />
+  <img src="https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/images/math_magicians_home.png" alt="Core elements" width="450px"  />
+  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_calculator.png" alt="Core elements" width="450px"  />
+  <img src="https://user-images.githubusercontent.com/92180054/171526618-848799a1-6720-439c-b410-fe5def28602b.png" alt="Core elements" width="450px"  />
 </p>
 
 ## Built With
