@@ -8,9 +8,7 @@
 - The general layout should match these wireframes:
 
 <p align="center">
-  <img src="https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/images/math_magicians_home.png" alt="Core elements" width="450px"  />
-  <img src="https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/math_magicians_calculator.png" alt="Core elements" width="450px"  />
-  <img src="https://user-images.githubusercontent.com/92180054/171526618-848799a1-6720-439c-b410-fe5def28602b.png" alt="Core elements" width="450px"  />
+  <img src="https://user-images.githubusercontent.com/92180054/171664725-6f5181c9-d045-41e6-9351-b6e14b226f1a.jpg" alt="Core elements" width="450px"  />
 </p>
 
 ## Built With
@@ -18,9 +16,10 @@
 - Major languages: HTML, CSS & JavaScript
 - Frameworks: React
 
-## Live Demo (if available)
+## Live Demo
 
-[Not available](https://livedemo.com)
+- [Netlify](https://funny-frangipane-9ecc61.netlify.app/)
+- [Heroku](https://infinite-shelf-24962.herokuapp.com/)
 
 # Getting Started with Create React App
 
@@ -35,7 +34,7 @@ In the project directory, you can clone the repository with the following link:
  to install all the dependencies that you need.
  Then you can run a live version with the command `npm start`.
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -43,12 +42,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -58,7 +57,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
