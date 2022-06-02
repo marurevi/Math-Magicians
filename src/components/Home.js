@@ -1,4 +1,5 @@
 import Navigator from './Navigator';
+import image from '../images/Se+aprende+matemáticas+en+un+modelo+virtual.jpg';
 
 function Home() {
   return (
@@ -19,8 +20,8 @@ function Home() {
           Render an Outlet
           First let&apos;s nest the routes. Right now the expenses and invoices routes are siblings
           to the app, we want to make them children of the app route:
-
         </p>
+        <img src={image} alt="home img" />
       </main>
     </>
   );

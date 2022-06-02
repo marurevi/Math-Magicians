@@ -9,8 +9,10 @@
 
 body {
   background-color: whitesmoke;
+  color: darkcyan;
   display: flex;
   flex-direction: column;
+  padding: 0 5em;
 }
 
 .nav {
@@ -25,7 +27,8 @@ body {
   text-decoration: none;
   font-weight: bold;
   margin: 0 1em;
-  color: black
+  color: darkcyan;
+  cursor: pointer;
 }
 
 .nav >*:not(:first-child) {
@@ -34,8 +37,8 @@ body {
 }
 
 .nav > *:hover {
-  color: darkorange;
-  text-shadow: 2px 2px 3px black;
+  color: darkcyan;
+  text-shadow: 2px 2px 2px rgb(96, 95, 95);
   transform: scale(1.2);
 }
 
@@ -51,6 +54,12 @@ body {
 }
 
 .main-calculator {
+  background-image: url(../src/images/dplnews_matematicas_311019.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(2px);
+  color: whitesmoke;
+  text-shadow: rgb(95, 94, 94) 2px 2px 5px;
   display: flex;
   flex-direction: row;
   justify-content: center;
