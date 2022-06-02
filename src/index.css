@@ -23,7 +23,7 @@ body {
   width: 100%;
 }
 
-.nav >* {
+.nav > * {
   text-decoration: none;
   font-weight: bold;
   margin: 0 1em;
@@ -31,7 +31,7 @@ body {
   cursor: pointer;
 }
 
-.nav >*:not(:first-child) {
+.nav > *:not(:first-child) {
   padding-left: 2em;
   border-left: black 1px solid;
 }
