@@ -1,13 +1,13 @@
 import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
-import Navigation from './Navigation';
+import Navigator from './Navigator';
 
 it('Home renders correctly', () => {
   const tree = renderer
     .create(
       <MemoryRouter>
-        <Navigation />
+        <Navigator />
       </MemoryRouter>,
     )
     .toJSON();

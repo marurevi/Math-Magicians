@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
-import Quotes from './Quotes';
+import Quote from './Quote';
 
 it('Quotes renders correctly', () => {
-  const tree = renderer.create(<Quotes />).toJSON();
+  const tree = renderer.create(<Quote />).toJSON();
   expect(tree).toMatchSnapshot();
 });

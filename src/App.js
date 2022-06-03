@@ -6,13 +6,11 @@ import Quote from './components/Quote';
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="calculator" element={<Calculator />} />
-        <Route path="quote" element={<Quote />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="calculator" element={<Calculator />} />
+      <Route path="quote" element={<Quote />} />
+    </Routes>
   );
 }
 
