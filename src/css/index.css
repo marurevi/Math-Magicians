@@ -54,7 +54,7 @@ body {
 }
 
 .main-calculator {
-  background-image: url(../src/images/dplnews_matematicas_311019.jpg);
+  background-image: url(../images/dplnews_matematicas_311019.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur(2px);
